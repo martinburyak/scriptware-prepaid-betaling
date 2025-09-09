@@ -1,0 +1,58 @@
+@import "../../styles/colors.scss";
+
+.textfield {
+  margin: 20px 0 0;
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+.field {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  color: $grey-800;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 56px;
+  box-sizing: border-box;
+  padding: 15px 15px 0;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 6%), 0 1px 1px 0 rgb(0 0 0 / 3%);
+  outline: none;
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  font-weight: 400;
+  transition: all .15s ease;
+}
+
+.field::placeholder {
+  opacity: 0;
+}
+
+.field:focus {
+  border: 1px solid $blue-500;
+}
+
+.field:focus::placeholder {
+  opacity: 1;
+}
+
+.label {
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #999999;
+  transition: all .05s ease;
+  pointer-events: none;
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+
+.field:focus + .label,
+.filled {
+  font-size: 12px;
+  top: 9px;
+}

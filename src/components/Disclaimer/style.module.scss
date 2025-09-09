@@ -1,0 +1,29 @@
+@import "../../styles/colors.scss";
+
+.disclaimer {
+  text-align: center;
+  margin: 29px 0 0;
+}
+
+.link {
+  display: inline-flex;
+  color: $grey-500;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: none;
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+
+.before {
+  display: block;
+  height: 11px;
+  width: 9px;
+  margin: 1px 3px 0 0;
+}
+
+.after {
+  display: block;
+  height: 12px;
+  width: 41px;
+  margin: 0 0 0 4px;
+}

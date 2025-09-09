@@ -1,0 +1,11 @@
+@import "../../styles/colors.scss";
+
+.text {
+  margin: 20px auto 0;
+  max-width: 340px;
+  color: $grey-500;
+  font-size: 16px;
+  line-height: 1.4em;
+  text-decoration: none;
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}

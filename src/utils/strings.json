@@ -1,0 +1,53 @@
+{
+  "Invalid quote number": {
+    "nl-nl": "Ongeldig offerte nummer"
+  },
+  "Payment secured and provided by": {
+    "nl-nl": "Beveiligd en mogelijk gemaakt door"
+  },
+  "Street name and house number": {
+    "nl-nl": "Straatnaam en huisnummer"
+  },
+  "Main Street 12": {
+    "nl-nl": "Dorpstraat 45"
+  },
+  "Zip Code": {
+    "nl-nl": "Postcode"
+  },
+  "N5V 0A5": {
+    "nl-nl": "1234 AB"
+  },
+  "City": {
+    "nl-nl": "Woonplaats"
+  },
+  "London": {
+    "nl-nl": "Amsterdam"
+  },
+  "Country": {
+    "nl-nl": "Land"
+  },
+  "VAT Number": {
+    "nl-nl": "BTW-nummer"
+  },
+  "NL123456789B01": {
+    "nl-nl": "NL123456789B01"
+  },
+  "Pay Quote": {
+    "nl-nl": "Betaal offerte"
+  },
+  "The quote is already accepted.": {
+    "nl-nl": "De offerte is al geaccepteerd."
+  },
+  "The quote is expired.": {
+    "nl-nl": "De offerte is verlopen."
+  },
+  "Something went wrong, please try again later.": {
+    "nl-nl": "Er is iets misgegaan, probeer het later nog eens."
+  },
+  "Your Payment was Successful!": {
+    "nl-nl": "Je betaling gelukt!"
+  },
+  "We start working for you right away. Our project manager will keep you informed about the delivery of your translation.<br /><br />Thank you very much for your order.": {
+    "nl-nl": "Wij gaan meteen voor je aan de slag. Onze projectmanager houdt je op de hoogte over de levering van je vertaling.<br /><br />Hartelijk dank voor je opdracht."
+  }
+}

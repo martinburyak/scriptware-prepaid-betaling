@@ -1,0 +1,33 @@
+@import "../../styles/colors.scss";
+
+.button {
+  margin: 20px 0 0;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  border: 0;
+  background: $blue-400;
+  color: $white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 15px 30px;
+  font: 600 16px/22px -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: background .15s ease-out;
+  border-radius: 8px;
+  height: 56px;
+}
+
+.button:hover {
+  background: $blue-500;
+}
+
+.indicator {
+  margin-left: 4px;
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+}
