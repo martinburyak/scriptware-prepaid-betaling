@@ -17,7 +17,7 @@ Voor vertaalopdrachten voor het MKB en particulieren is een betaling vooraf nood
 
 Een salesmanager verzend een offerte vanuit Plunet naar de klant:
 
-<img src="offerte-mail.jpg" width="500px" />
+<img src="/readme/offerte-mail.jpg" width="500px" />
 
 <sup>*E-mail met offerte die de klant ontvangt*</sup>
 
@@ -45,7 +45,7 @@ De response van de backend API endpoint naar de frontend is een betaallink of ee
 
 Om de drempel bij de offerte aanvraag zo laag mogelijk te houden, worden er geen adresgegevens gevraagd. Om de btw te berekenen en een factuur te kunnen maken zijn deze wel noodzakelijk. Dus als ze nog niet bekend zijn voor een klant, dan moet die eerst ingevuld worden voordat een offerte betaald kan worden. Daarvoor wordt het volgende formulier op de frontend gebruikt.
 
-<img src="adresgegevens.jpg" width="500px" />
+<img src="/readme/adresgegevens.jpg" width="500px" />
 
 <sup>*Adresgegevens invullen in de webapp*</sup>
 
