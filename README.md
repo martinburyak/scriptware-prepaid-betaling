@@ -19,8 +19,6 @@ Een salesmanager verzend een offerte vanuit Plunet naar de klant:
 
 <img src="/readme/offerte-mail.jpg" width="500px" />
 
-<sup>*E-mail met offerte die de klant ontvangt*</sup>
-
 Dit e-mail template is door mij gemaakt. De knop 'Akkoord an Betalen' verwijst naar het url van de webapp die de betaling afhandelt. Middels het url wordt het offerte nummer meegegeven aan de betaal portal. Het url ziet er als volgt uit:
 
 ```http
@@ -47,8 +45,6 @@ Om de drempel bij de offerte aanvraag zo laag mogelijk te houden, worden er geen
 
 <img src="/readme/adresgegevens.jpg" width="500px" />
 
-<sup>*Adresgegevens invullen in de webapp*</sup>
-
 Voor het formulier heb ik het design van Mollie nagemaakt. Op die manier ziet de klant geen verschil tussen het adres invullen, wat aan portal kant ligt en de betaling, wat aan de Mollie kant ligt.
 
 Voor het opslaan van het adres maakt de frontend gebruik van het volgende backend API endpoint:
@@ -66,8 +62,6 @@ Vervolgens maakt de frontend opnieuw gebruik van het `/.netlify/functions/link` 
 Na de redirect op de frontend wordt de klant doorgestuurd naar de betaalfaciliteit van Mollie waar de betaling plaatsvindt:
 
 <img src="/readme/mollie-betaling.jpg" width="500px" />
-
-<sup>*Betaalomgeving van Mollie*</sup>
 
 ### 5. Succesvolle betaling
 
@@ -87,12 +81,8 @@ Het API endpoint gebruikt de Sendgrid RESTfull API om een mail naar de klant te 
 
 <img src="/readme/betaling-succes.jpg" width="500px" />
 
-<sup>*E-mail naar klant*</sup>
-
 Het API endpoint gebruikt de Sendgrid RESTfull API om een mail naar de Project Managers te sturen:
 
 <img src="/readme/betaling-succes-pm.jpg" width="500px" />
-
-<sup>*E-mail naar Project Managers*</sup>
 
 Hoewel deze e-mails vanuit Sendgrid worden verzonden zien ze er exact hetzelfde uit als de e-mail die eerder uit Plunet verzonden is. Hierdoor ziet de klant het verschil niet tussen de verschillende systemen die gebruikt worden.
