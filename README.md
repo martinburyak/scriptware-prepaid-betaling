@@ -21,7 +21,7 @@ Een salesmanager verzend per e-mail een offerte vanuit Plunet naar de klant:
 
 Dit e-mail template is door mij gemaakt. De knop 'Akkoord an Betalen' verwijst naar het url van de webapp die de betaling afhandelt. Middels de querystring van het url wordt het offerte nummer meegegeven aan de betaal portal. Het url ziet er als volgt uit:
 
-```http
+```
 https://payment.scriptwaretranslations.com/nl-nl/Q-12675-01
 ```
 
@@ -45,7 +45,7 @@ Om de drempel bij de offerte aanvraag zo laag mogelijk te houden, worden er geen
 
 <img src="/readme/adresgegevens.jpg" width="500px" />
 
-Voor het formulier heb ik het design van Mollie nagemaakt. Op die manier ziet de klant geen verschil tussen het adres invullen, wat aan portal kant ligt en de betaling, wat aan de Mollie kant ligt.
+Voor het formulier heb ik het design van Mollie nagemaakt. Op die manier ziet de klant geen verschil tussen het adres invullen wat aan portal kant ligt en de betaling wat aan de Mollie kant ligt.
 
 Voor het opslaan van het adres maakt de frontend gebruik van het volgende backend API endpoint:
 
