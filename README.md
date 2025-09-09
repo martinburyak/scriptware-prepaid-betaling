@@ -4,12 +4,12 @@ Voor vertaalopdrachten voor het MKB en particulieren is een betaling vooraf nood
 
 ## Gebruikte technologie
 
-- **Mollie** Veilige en efficiënte verwerking van betalingen via verschillende methoden zoals iDEAL, creditcard en achteraf betalen. 
+- **Mollie** Veilige en efficiënte verwerking van betalingen via verschillende methoden. 
 - **Sendgrid** Verzenden van transactionele e-mails middels een RESTful API.
-- **Plunet** Het translation management system dat we bij Scriptware gebruiken voor het managen van de projecten. Benaderbaar middels een SOAP API.
+- **Plunet** Project Management System voor vertaalbureaus.
 - **Netlify** Voor het hosten van de frontend en de backend serverless functions
-- **GitLab** Voor versiebeheer van de code en elke nieuwe push word automatisch naar Netlify verstuursd.
-- **Gatsby** React-based frontend framework. 
+- **GitLab** Voor versiebeheer van de code en elke nieuwe push word automatisch naar Netlify verstuurd.
+- **Gatsby** React-based frontend framework.
 
 ## Workflow
 
