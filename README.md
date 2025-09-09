@@ -15,17 +15,17 @@ Voor vertaalopdrachten voor het MKB en particulieren is een betaling vooraf nood
 
 ### 1. Offerte verzenden
 
-Een salesmanager verzend een offerte vanuit Plunet naar de klant:
+Een salesmanager verzend per e-mail een offerte vanuit Plunet naar de klant:
 
 <img src="/readme/offerte-mail.jpg" width="500px" />
 
-Dit e-mail template is door mij gemaakt. De knop 'Akkoord an Betalen' verwijst naar het url van de webapp die de betaling afhandelt. Middels het url wordt het offerte nummer meegegeven aan de betaal portal. Het url ziet er als volgt uit:
+Dit e-mail template is door mij gemaakt. De knop 'Akkoord an Betalen' verwijst naar het url van de webapp die de betaling afhandelt. Middels de querystring van het url wordt het offerte nummer meegegeven aan de betaal portal. Het url ziet er als volgt uit:
 
 ```http
 https://payment.scriptwaretranslations.com/nl-nl/Q-12675-01
 ```
 
-Omdat de klanten van Scriptware niet alleen uit Nederland komen is de portal ook beschikbaar in het Engels. Het onderscheid wordt gemaakt door `nl-nl` in het url voor Nederlands en `en-gb` in het url voor Engels.
+Omdat de klanten van Scriptware niet alleen uit Nederland komen is de portal ook beschikbaar in het Engels. Het onderscheid wordt gemaakt door `nl-nl` in de querystring voor Nederlands en `en-gb` in querystring voor Engels.
 
 ### 2. Betaallink genereren
 
